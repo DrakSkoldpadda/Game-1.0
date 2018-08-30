@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class AICollider : MonoBehaviour
 {
-    public AI directionTrigger;
+    public AI AIVariables;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (directionTrigger.moveRight == false)
-            directionTrigger.moveRight = true;
-        else
-            directionTrigger.moveRight = false;
+        if (collision.gameObject.CompareTag("wall"))
+        {
+            if (AIVariables.moveRight == false)
+                AIVariables.moveRight = true;
+            else
+                AIVariables.moveRight = false;
+        }
+
+        if (collision.gameObject.CompareTag("Projectile"))
+        {
+            //AIVariables.AIHP -=
+        }
     }
 }
