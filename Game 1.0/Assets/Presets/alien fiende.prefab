@@ -20,7 +20,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4461539425114348}
   - component: {fileID: 61455450026121214}
+<<<<<<< HEAD
   - component: {fileID: 114255178970150874}
+=======
+>>>>>>> Gabriel
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -40,6 +43,10 @@ GameObject:
   - component: {fileID: 114392862127696080}
   - component: {fileID: 61700931648604448}
   - component: {fileID: 50633673939752408}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 114668937162257678}
+>>>>>>> Gabriel
   m_Layer: 0
   m_Name: alien fiende
   m_TagString: Untagged
@@ -144,11 +151,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8347051, y: 1.8947722}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!114 &114255178970150874
+=======
+--- !u!114 &114392862127696080
+>>>>>>> Gabriel
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1559097693284594}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -157,10 +169,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AIVariables: {fileID: 114392862127696080}
 --- !u!114 &114392862127696080
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+=======
   m_GameObject: {fileID: 1952392709834284}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -168,7 +177,28 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveRight: 0
+  AIHP: 5
+--- !u!114 &114668937162257678
+>>>>>>> Gabriel
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952392709834284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< HEAD
+  m_Script: {fileID: 11500000, guid: 3d845f78e328f4a4fb0ec0baf18ac44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveRight: 0
   AIHP: 3
+=======
+  m_Script: {fileID: 11500000, guid: ee571203985857a4f8f7ea83168b7b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  directionTrigger: {fileID: 114392862127696080}
+>>>>>>> Gabriel
 --- !u!212 &212935137662827866
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -70,7 +70,11 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 471}
   m_MaxSize: {x: 10004, y: 14021}
   vertical: 1
+<<<<<<< HEAD
   controlID: 157
+=======
+  controlID: 10
+>>>>>>> Gabriel
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +93,8 @@ MonoBehaviour:
     y: 508
     width: 923
     height: 449
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -116,10 +120,14 @@ MonoBehaviour:
     y: 0
     width: 923
     height: 957
-  m_MinSize: {x: 202, y: 442}
-  m_MaxSize: {x: 4002, y: 8042}
+  m_MinSize: {x: 202, y: 421}
+  m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
+<<<<<<< HEAD
   controlID: 135
+=======
+  controlID: 103
+>>>>>>> Gabriel
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,7 +201,11 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 192}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 30
+=======
+  controlID: 72
+>>>>>>> Gabriel
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,7 +255,11 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 471}
   m_MaxSize: {x: 18008, y: 14021}
   vertical: 0
+<<<<<<< HEAD
   controlID: 29
+=======
+  controlID: 71
+>>>>>>> Gabriel
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -262,8 +278,8 @@ MonoBehaviour:
     y: 0
     width: 421
     height: 568
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -370,19 +386,24 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets/Presets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Presets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\gabriel.gonzalezleo\Documents\Game-1.0\Game 1.0
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: c20a0000
     m_LastClickedID: 2754
+=======
+    m_SelectedIDs: 4a2c0000
+    m_LastClickedID: 11338
+>>>>>>> Gabriel
     m_ExpandedIDs: 00000000dc08000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -527,9 +548,15 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: eefbffff
     m_LastClickedID: -1042
     m_ExpandedIDs: eefbfffff0fbffff00000000
+=======
+    m_SelectedIDs: fcd0ffff
+    m_LastClickedID: 0
+    m_ExpandedIDs: f0fbffff000000008c0b0000
+>>>>>>> Gabriel
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

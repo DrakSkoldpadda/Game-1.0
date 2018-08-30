@@ -9,12 +9,19 @@ public class AI : MonoBehaviour
     [Header("MovingAtributes (DON'T TOUCH!)")]
     public bool moveRight = false;
     private Vector3 MovingDirection = Vector3.left;
+<<<<<<< HEAD
     private float moveSpeed = 1.5f;
 
     [Header("HealthAtributes (DON'T TOUCH!)")]
     public int AIHP = 3;
     private SpriteRenderer spriteRend;
     private Color orange = new Color(255F, 100F, 10F);
+=======
+    private float moveSpeed = 10f;
+
+    [Header("HealthAtributes (DON'T TOUCH!)")]
+    public int AIHP = 5;
+>>>>>>> Gabriel
 
     void FixedUpdate()
     {
@@ -25,6 +32,7 @@ public class AI : MonoBehaviour
 
     void Health()
     {
+<<<<<<< HEAD
         if (AIHP == 2)
         {
             spriteRend.color = orange;
@@ -33,6 +41,9 @@ public class AI : MonoBehaviour
         {
             spriteRend.color = Color.red;
         }
+=======
+
+>>>>>>> Gabriel
         if (AIHP <= 0)
             Die();
     }
