@@ -15,6 +15,7 @@ public class AI : MonoBehaviour
     public int AIHP = 3;
     private SpriteRenderer spriteRend;
     private Color orange = new Color(254, 32, 0);
+    public AudioSource damageTakenSound;
 
     void Start()
     {
@@ -32,10 +33,10 @@ public class AI : MonoBehaviour
     {
 #if UNITY_EDITOR
         if (Input.GetKeyDown(KeyCode.P))
-            AIHP -= 1;
+            Damage(1);
 #endif
         if (AIHP == 2)
-            spriteRend.color = orange;
+            spriteRend.color = Color.yellow;
         else if (AIHP == 1)
             spriteRend.color = Color.red;
 
@@ -46,6 +47,7 @@ public class AI : MonoBehaviour
     public void Damage(int damage)
     {
         AIHP -= damage;
+        damageTakenSound.Play();
     }
 
     void Die()
