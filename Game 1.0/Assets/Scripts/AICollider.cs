@@ -15,10 +15,5 @@ public class AICollider : MonoBehaviour
             else
                 AIVariables.moveRight = false;
         }
-
-        //if (collision.gameObject.CompareTag("Projectile"))
-        //{
-        //    AIVariables.AIHP -=
-        //}
     }
 }
