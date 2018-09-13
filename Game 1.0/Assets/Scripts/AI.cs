@@ -14,36 +14,46 @@ public class AI : MonoBehaviour
     [Header("HealthAtributes (DON'T TOUCH!)")]
     public int AIHP = 3;
     private SpriteRenderer spriteRend;
-    private Color orange = new Color(255F, 100F, 10F);
+    private Color orange = new Color(254, 32, 0);
+    public AudioSource damageTakenSound;
 
-    //[Header("HealthAtributes (DON'T TOUCH!)")]
-    //public int AIHP = 5;
+    void Start()
+    {
+        spriteRend = GetComponent<SpriteRenderer>();
+    }
 
     void FixedUpdate()
     {
         Movement();
 
-        //Health();
+        Health();
     }
 
-    //void Health()
-    //{
-    //    if (AIHP == 2)
-    //    {
-    //        spriteRend.color = orange;
-    //    }
-    //    else if (AIHP == 1)
-    //    {
-    //        spriteRend.color = Color.red;
-    //    }
-    //    if (AIHP <= 0)
-    //        Die();
-    //}
+    void Health()
+    {
+#if UNITY_EDITOR
+        if (Input.GetKeyDown(KeyCode.P))
+            Damage(1);
+#endif
+        if (AIHP == 2)
+            spriteRend.color = Color.yellow;
+        else if (AIHP == 1)
+            spriteRend.color = Color.red;
 
-    //void Die()
-    //{
-    //    Destroy(gameObject);
-    //}
+        if (AIHP <= 0)
+            Die();
+    }
+
+    public void Damage(int damage)
+    {
+        AIHP -= damage;
+        damageTakenSound.Play();
+    }
+
+    void Die()
+    {
+        Destroy(gameObject);
+    }
 
     void Movement()
     {
